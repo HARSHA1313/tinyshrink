@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact TinyShrink</title>
+  <meta name="description" content="Contact TinyShrink to report issues, share feedback, or ask questions about our free online image compressor.">
+  <link rel="canonical" href="https://harsha1313.github.io/tinyshrink/contact.html">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f8fc;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 20px;
+    }
+
+    header a {
+      max-width: 800px;
+      display: block;
+      margin: auto;
+      color: #2563eb;
+      text-decoration: none;
+      font-size: 23px;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 35px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 3px 16px rgba(0,0,0,.04);
+    }
+
+    h1, h2 { color: #172554; }
+
+    h1 { margin-top: 0; }
+
+    .contact-link {
+      display: inline-block;
+      margin: 12px 0;
+      padding: 12px 18px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .contact-link:hover { background: #1d4ed8; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    footer a {
+      margin: 0 8px;
+      color: #2563eb;
+    }
+
+    @media (max-width: 600px) {
+      main { margin: 18px 12px; padding: 22px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="https://harsha1313.github.io/tinyshrink/">TinyShrink</a>
+  </header>
+
+  <main>
+    <h1>Contact TinyShrink</h1>
+
+    <p>
+      Have a question, found a problem, or want to share feedback
+      about TinyShrink? We'd be happy to hear from you.
+    </p>
+
+    <h2>Report a problem or share feedback</h2>
+
+    <p>
+      Use our GitHub Issues page to report a bug, describe a problem,
+      or suggest an improvement. Please don't include private or
+      sensitive information in a public issue.
+    </p>
+
+    <a class="contact-link"
+       href="https://github.com/HARSHA1313/tinyshrink/issues"
+       target="_blank"
+       rel="noopener noreferrer">
+      Contact us on GitHub
+    </a>
+
+    <h2>Before reporting a problem</h2>
+
+    <p>
+      If possible, describe what you were trying to do, what happened,
+      and which browser or device you were using. Never attach private
+      images or personal information to a public report.
+    </p>
+
+    <h2>Return to TinyShrink</h2>
+
+    <p>
+      <a href="https://harsha1313.github.io/tinyshrink/">
+        Go back to the free image compressor
+      </a>
+    </p>
+  </main>
+
+  <footer>
+    <a href="https://harsha1313.github.io/tinyshrink/">Home</a>
+    |
+    <a href="privacy-policy.html">Privacy Policy</a>
+    |
+    <a href="compress-jpg-online.html">JPG Guide</a>
+    |
+    <a href="compress-png-online.html">PNG Guide</a>
+  </footer>
+</body>
+</html>
