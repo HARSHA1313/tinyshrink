@@ -799,15 +799,21 @@ quality.addEventListener("change", () => {
 
 });
 
+
 format.addEventListener("change", () => {
 
-  if (originalFile) {
+  if (format.value === "image/png") {
+    setStatus(
+      "PNG uses lossless compression. The quality slider may not change file size."
+    );
+  } else if (originalFile) {
     setStatus(
       "Format changed. Compress again to apply it."
     );
   }
 
 });
+
 
 compressButton.addEventListener(
   "click",
